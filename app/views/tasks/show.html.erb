@@ -1,0 +1,7 @@
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+
+<p></p>
+<%= link_to "✏️ Edit current Task", edit_path(@task) %>
+<p></p>
+<%= link_to "🔙 Back to list", tasks_path %>
